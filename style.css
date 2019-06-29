@@ -1,0 +1,223 @@
+@media only screen and (max-width: 600px) {
+  .sidebar-wrapper {
+  display: none;
+  }
+}
+
+
+    @media only screen and (max-width: 600px) {
+      .section1 {
+        height: 750px;
+        padding: 5px;
+        background-image: linear-gradient(180deg, #0000cc, #0000cc);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+      }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .section2 {
+          height: 750px;
+          padding: 5px;
+            background-image: linear-gradient(180deg, #22d3ea, #22d3ea);
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            width:100%;
+        }
+        }
+
+        @media only screen and (max-width: 600px) {
+          .right-section {
+            width: 100%;
+            background-color: green;
+            display: block;
+          }
+          }
+          @media only screen and (max-width: 600px) {
+          .img-firma {
+            width: 0%;
+            left: 0px;
+            top: 50px;
+            margin: 0;
+            }
+          }
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.right-section {
+  float: right;
+  width: 60%;
+  background-color: green;
+
+}
+
+.section1 {
+    height: 750px;
+    padding: 60px;
+    background-image: linear-gradient(180deg, #0000cc, #0000cc);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+
+}
+
+.section2 {
+  height: 750px;
+  padding: 60px;
+    background-image: linear-gradient(180deg, #22d3ea, #22d3ea);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+}
+
+.work_number {
+    font-family: 'Museosans 100', sans-serif;
+    color: #fff;
+}
+
+.image-1 {
+width: 70%;
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.image-2 {
+  width: 90%;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.title_sub {
+    margin-top: -50px;
+    margin-left: 0px;
+    float: none;
+    clear: none;
+    font-family: 'Museosans 100', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.title {
+    margin-top: 5px;
+    margin-left: 0px;
+    float: left;
+    font-family: 'Museosans 500', sans-serif;
+    color: #fff;
+  }
+
+  .logo_behance{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 0px;
+    float: right;
+    background-color: transparent;
+    background-image: url(behance-logo-bianco.svg);
+    background-position: 0px 0px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.about {
+  font-family:'Museosans 900', sans-serif;
+    color: #4a4a4a;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;;
+    width: 90%;
+    position: relative;
+    bottom: 100px;
+    margin: auto;
+}
+
+.about2 {
+  position: relative;
+  bottom: 100px;
+  margin: auto;
+  width: 90%;
+  font-size: 20px;
+  font-family:'Museosans 900', sans-serif;
+}
+
+
+.button {
+  position: relative;
+  bottom: 50px;
+  margin: auto;
+  width: 90%;
+
+}
+
+.w-button {
+    padding: 9px 15px;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .contact_btn {
+      padding: 14px 60px;
+      border-radius: 100px;
+      background-color: #ff3333;
+      -webkit-transition: all 200ms ease;
+      transition: all 200ms ease;
+      font-family: 'Museosans 100', sans-serif;
+      font-size: 16px;
+  }
+
+  .sidebar-wrapper {
+      position: fixed;
+      width: 40%;
+      height: auto;
+      padding: 75px;
+
+  }
+
+  .img-firma {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    margin: 0;
+    }
+
+.img-logo {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  bottom: 100px;
+
+}
+    .footer {
+      width: 100%;
+      height: 150px;
+      background-color: black;
+      float: right;
+      width: 60%;
+      padding: 100px;
+      font-family: 'Museosans 900', sans-serif;
+        color: #4a4a4a;
+
+    }
